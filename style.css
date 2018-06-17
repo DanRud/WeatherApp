@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    height: 350px;
+    width: 250px;
+    background: rgba(128, 128, 128, 0.43);
+    border-radius: 3px;
+    align-items: center;
+}
+
+.temp {
+    text-align: center;
+    font-size: 24px;
+}
+
+.temp:hover {
+    cursor: pointer;
+}
+
+
+p {
+    text-align: center;
+    padding: 7px;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+span {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.city {
+    font-size: 28px;
+}
+
+.country {
+    position: relative;
+    top: -15px;
+    font-size: 26px;
+}
+
+.currentweather {
+    font-size: 20px;
+}
